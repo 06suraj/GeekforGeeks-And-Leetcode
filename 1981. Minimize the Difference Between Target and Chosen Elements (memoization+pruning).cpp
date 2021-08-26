@@ -1,5 +1,9 @@
 class Solution {
 public:
+    
+//     T.C=O(row*(all possible sum))
+//    S.C=O(row*(all possible sum))
+    
     int dp[71][10000];
     int solve(vector<vector<int>>&mat,int target ,int sum,int row)
     {
